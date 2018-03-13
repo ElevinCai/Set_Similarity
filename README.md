@@ -20,7 +20,8 @@ e.g.
 	1 2 4 5 8
 	2 3 4 5
 	```
- List<ElementId> in which ElementIds are sorted in ascending order by their frequency.
+ 
+ ElementIds are sorted in ascending order by their frequency.
   
   
   # Solution
