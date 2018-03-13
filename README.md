@@ -41,6 +41,7 @@ e.g.
   and in the reducer we simply compute similarity for each key,only keep the pair that their similarity > threshold and emits(r1Id,r2Id,similarity) with r1Id < r2Id
   
  **Stage 2:Remove Duplicates**
+ 
  In the stage 2 just simply handle the duplicate value which just simply take the first value in the reducer as all the same key is send to the same reducer.
  
 	
