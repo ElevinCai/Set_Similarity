@@ -34,7 +34,7 @@ e.g.
   ```
   Therefore for every record **r**, if there exist an another record that the similarity between these two records.they must share at least one token in the prefix length.
   ```
-  prefix length = |r| - |r| * t + 1
+  prefix length = |r| - |r| * threshold + 1
   ```
   In the program for a given record r = (A,B,C,D) and prefix length = 2, the mapper emits(A,r) and (B,r)
   
