@@ -29,6 +29,7 @@ e.g.
   For this project, a two-stage mapreduce was implemented.
   
  **Stage 1:Find similar id pairs**
+ 
  for each record that can have smimilarity > certain threshold,we introduce a prefix length.
   ```
    As for Sim(r1,r2) >= threshold -> |r1∩r2| >= |r1∪r2| * threshold => Max(|r1|,|r2|) * threshold
